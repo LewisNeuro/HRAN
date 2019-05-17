@@ -1,0 +1,41 @@
+What is in this data directory?
+
+Original Data
+-------------
+
+demoData.nii.gz
+- functional data (as acquired in Experiment C in Agrawal et. al. 2019)
+- 3T
+- slice time corrected
+- motion corrected
+- smoothed with 5 mm FWMH Gaussian
+- data acquired with presentation of visual stimulus (flickering checkerboard) at 0.13 Hz
+
+Brain_mask.nii, WhiteMatter_mask.nii, VisualCortex_mask.nii, aparcaseg.nii
+- masks of functional data (created via Freesurfer (Fischl 2012))
+- all registered to the same space as the functional data
+- Brain_mask -- mask of brain
+- WhiteMatter_mask -- mask of white matter
+- VisualCortex_mask -- mask of visual cortex
+- aparcaseg -- Freesurfer output with many different ROIs identified
+
+physio.mat
+- heart rate and respiration rate as estimated from EKG and resp belt respectively
+- specifically, a struct with time (T), heart rate (HR), and respiration rate (RR)
+- used to compare the HRAN estimates with HR and RR from EKG and resp belt
+
+HRAN Outputs
+------------
+
+demoData_deNoised.nii.gz
+- after running hran_demo_nifti, this is the output functional data from HRAN
+(which can then be input into other processing pipelines)
+
+estimatedFrequencies_nifti.png, deNoisedVisualCortex_nifti.png
+- frequency estimates overlaid on white matter spectrogram and true HR/RR
+- de-noised visual cortex ROI demonstrating preservation of signal and removal
+of physiological noise
+
+estimatedFrequencies_simulated.png, deNoisedData_simulated.png
+- simulated physiological frequency estimates
+- simulated de-noised data
