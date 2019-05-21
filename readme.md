@@ -18,7 +18,7 @@ where PATH is the path to the chronux directory.
 
 ## Installing
 
-Our software package HRAN is available at our lab Git - [HRAN](https://github.com/LewisNeuro).
+Our software package HRAN is available at our lab Git - [HRAN](https://github.com/LewisNeuro/HRAN).
 
 We recommend running the `HRAN_demo_nifti.m` or `HRAN_demo_simulated.m` script in order to test if the program was downloaded successfully.
 
@@ -140,4 +140,4 @@ Please cite ([Agrawal et. al. 2019](http://www.googlescholar.com)) if you use HR
 
 ## Questions
 
-Please contact us with any questions at hran@gmail.com!
+Please contact us with any questions at uagrawal61@gmail.com!

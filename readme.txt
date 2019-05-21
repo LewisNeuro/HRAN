@@ -18,7 +18,7 @@ where PATH is the path to the chronux directory.
 
 ## Installing
 
-Our software package HRAN is available at our lab Git - [HRAN](https://github.com/LewisNeuro).
+Our software package HRAN is available at our lab Git - [HRAN](https://github.com/LewisNeuro/HRAN).
 
 We recommend running the `HRAN_demo_nifti.m` or `HRAN_demo_simulated.m` script in order to test if the program was downloaded successfully.
 
@@ -110,7 +110,7 @@ HRAN_residuals %residuals (note: requires MATLAB Econometrics toolbox)
 The de-noised output from the simulated data in `HRAN_demo_simulated` and `HRAN_demo_nifti` are also included in demo_data.
 
 
-This process can be performed in parallel (e.g. across all voxels in the brain) efficiently using parfor loops in MATLAB. Pseudocode shown below, and written in `HRAN_demo_nifti.m` to read in a nifti, de-noise the nifti, and write out a de-noised nifti file:   
+This process can be performed in parallel (e.g. across all voxels in the brain) efficiently using parfor loops in MATLAB. Pseudocode shown below, and written in `HRAN_demo_nifti.m` to read in a nifti, de-noise the nifti, and write out a de-noised nifti file:
 
 ------------------------------------------
 parfor z = 1:zDim
@@ -138,4 +138,4 @@ Please cite ([Agrawal et. al. 2019](http://www.googlescholar.com)) if you use HR
 
 ## Questions
 
-Please contact us with any questions at hran@gmail.com!
+Please contact us with any questions at uagrawal61@gmail.com!
