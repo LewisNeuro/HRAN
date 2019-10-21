@@ -1,6 +1,6 @@
 # HRAN - Physiological noise removal for fast fMRI
 
-We created a statistical tool to estimate and remove physiological noise in fast fMRI ([Agrawal et al., in submission](http://www.googlescholar.com)).
+We created a statistical tool to estimate and remove physiological noise in fast fMRI ([Agrawal et al., 2019](https://www.sciencedirect.com/science/article/pii/S1053811919308225)).
 Our code is under the MIT license and has no warranty.
 Below, we describe the steps for implementing the software:
 
@@ -136,7 +136,7 @@ Finally, one can implement batch scripts using this code as a base!
 ## Acknowledgments
 This project is licensed under the MIT License (LICENSE.txt).
 
-Please cite ([Agrawal et al., in submission](http://www.googlescholar.com)) if you use HRAN.
+Please cite ([Agrawal et al., 2019](https://www.sciencedirect.com/science/article/pii/S1053811919308225)) if you use HRAN.
 
 ## Questions
 
